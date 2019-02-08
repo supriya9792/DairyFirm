@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_menu_cart"
+        app:showAsAction="always"
+        android:title="refresh"/>
+    <item
+        android:id="@+id/action_clip"
+        android:icon="@mipmap/attach_file"
+        android:title="नोंदणी अद्ययावत करा"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/myprofile"
+        android:orderInCategory="100"
+        android:title="My Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

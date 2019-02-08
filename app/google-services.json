@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1081868483372",
+    "firebase_url": "https://dairyfirm-9eb26.firebaseio.com",
+    "project_id": "dairyfirm-9eb26",
+    "storage_bucket": "dairyfirm-9eb26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081868483372:android:98f6965dbb1fe5a8",
+        "android_client_info": {
+          "package_name": "com.example.admin.dairyfirm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081868483372-ht3mtl3c0v2n16t01ecjslabsdsju1re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.dairyfirm",
+            "certificate_hash": "6b2731c2d44526e3630bf5829d6b9b53448827b7"
+          }
+        },
+        {
+          "client_id": "1081868483372-h373v5ttrfm9d27s428avhs50fvmdf3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDymf30oXPRf11NlVQ1MruJcp4jiQqtwpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081868483372-h373v5ttrfm9d27s428avhs50fvmdf3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlue"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="56dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorBlue">
+        <TextView
+            android:id="@+id/lifting_rem_milk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="शिल्लक दूध:"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite" />
+        <TextView android:id="@+id/diffbuffalo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:text="buffalo"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            />
+        <TextView android:id="@+id/diffcow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:text="cow"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlue"
+            android:src="@drawable/refresh"
+            android:gravity="right"
+            android:id="@+id/bottom_refresh"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/uparrow"
+             android:src="@mipmap/downarrow"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/l"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="आजपर्यंतचे दुधाचे वितरण :"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/ttl_dispatch"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="गाय ० लि"
+            android:id="@+id/buff"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="म्हैस ० लि"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cow"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:id="@+id/linearpay"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" मागील महिन्याचे वेतन :"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/saltext"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="000"
+            android:id="@+id/sal"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

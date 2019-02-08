@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">DailyDairy</string>
+
+    <string name="success">success</string>
+    <string name="error">error</string>
+    <string name="one">1</string>
+    <string name="action">action</string>
+    <string name="zero">0</string>
+    <string name="inavlid">Invalid Login </string>
+    <string name="user_id">user_id</string>
+    <string name="lead_id">lead_id</string>
+    <string name="client_id">client_id</string>
+    <string name="emp_id">emp_id</string>
+    <string name="passworderror">Incorrect password must be 6 characters</string>
+    <string name="mobileerror">Please enter valid mobile no.</string>
+    <string name="errortry">Please try after some time</string>
+    <string name="pleasewait">Please wait..</string>
+    <string name="inavlidlogin">Check Login Details</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="id">adminid</string>
+    <string name="admin_id">admin_id</string>
+    <string name="Password">Employee Name</string>
+    <string name="sender_id">Sender id</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_main_navigation">AMC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="result">Select Arae Name</string>
+    <string-array name="result_arrays">
+        <item>select from list</item>
+        <item>Pending</item>
+        <item>Given Next Date</item>
+        <item>Complete</item>
+        <item>Not Interested</item>
+
+    </string-array>
+
+    <string name="customer">Choose a Customer</string>
+    <string-array name="customer_array">
+        <item>Select a Customer</item>
+        <item>Product</item>
+        <item>Services</item>
+
+
+    </string-array>
+    <string name="hint_fname">First Name</string>
+    <string name="hint_lname">Last Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mob_no">Phone</string>
+    <string name="hint_add">Address</string>
+    <string name="hint_req">Requirements</string>
+    <string name="hint_followupdate">Followup Date</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_phone">Enter the Valid Phone no</string>
+    <string name="hint_terminal">Terminal And Batt Cleaning</string>
+
+    ////////////////valdations////////////
+    <string name="fname">Please enter Valid name</string>
+    <string name="addresserror">Please enter address</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerrors">Enter a 10 digit valid mobile no</string>
+    <string name="dateerror">Enter a valid  Birthdate</string>
+    <string name="ageerror">Enter a valid age</string>
+    <string name="unameerror">Enter a uname</string>
+    <string name="roleerror">Enter a role</string>
+    <string name="reqerror">Please enter requirement</string>
+    <string name="quantityerror">Please enter quantity</string>
+    <string name="producterror">Please enter Product Name</string>
+    <string name="productdiserror">Please enter Product Name</string>
+    <string name="priceerror">Please enter Price</string>
+    <string name="gsterror">Please enter Gst Rate</string>
+    <string name="ttlpriceerror">Please enter Total Price</string>
+</resources>
